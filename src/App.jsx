@@ -148,7 +148,8 @@ function App() {
   }
 
   return (
-    <section>
+    <main>
+      <section>
       <div className="HeaderDiv">
         <div className="TitleDiv">
           <h2>Social Media Dashboard</h2>
@@ -196,6 +197,8 @@ function App() {
         })}
       </div>
     </section>
+    </main>
+    
   );
 }
 

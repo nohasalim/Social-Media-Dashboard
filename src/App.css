@@ -1,9 +1,15 @@
-
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 section{
-  padding: 20px;
-    width: 90%;
+  padding:50px;
+    width:80%;
+    height: auto;
     border-radius: 10px;
     background-color:hsl(225, 100%, 98%);
+    
 }
 .DarkMode{
     background-color:hsl(228, 28%, 20%);
@@ -114,7 +120,7 @@ section{
       height: auto;
       display:grid;
       grid-template-columns:auto auto ;
-      column-gap: 6px;
+      row-gap: 20px;
       
     }
   }

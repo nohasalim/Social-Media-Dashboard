@@ -9,7 +9,7 @@ body {
 #root {
   width: 100%;
   height: 100%;
-  display: block;
+  display:block;
   justify-content: center;
   align-items: center;
   
