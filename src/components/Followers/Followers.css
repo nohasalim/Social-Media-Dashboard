@@ -1,0 +1,34 @@
+.UsersDiv{
+    width: 100%;
+    margin: 10px;
+    background-color:hsl(227, 47%, 96%);
+    box-sizing: border-box;
+    padding: 10px;
+    border-top:3px solid rgb(66, 128, 175);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.Subdiv2{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+img{
+    margin-right: 2px;
+}
+span{
+    color:gray;
+    margin: 5px;
+
+}
+label{
+    color: green;
+}
+.RedLabel{
+    color: red;
+}
