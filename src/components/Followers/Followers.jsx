@@ -1,10 +1,6 @@
 import "./Followers.css";
 function Followers(props) {
-  let labelItems = document.querySelector("label");
-  if(props.icon==="public/images/icon-down.svg")
-    {labelItems.classList.add("RedLabel")}
-    else{labelItems.classList.remove("RedLabel");} 
-
+  
   return (
     <div className="UsersDiv">
       <div className="Subdiv2">
